@@ -109,7 +109,6 @@ void remove_posicao(TListaEstatica<T, CAPACIDADE> &lista, int index) {
 
 //OBTER
 
-
 template<typename T, int CAPACIDADE>
 T& obter_item_lista(TListaEstatica<T,CAPACIDADE> lista, int posicao) {
     if (lista.quantidade ==0) {
